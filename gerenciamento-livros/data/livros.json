@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "titulo": "Frankenstein",
+    "autor": "Mary Shelly",
+    "isbn": "12345678990",
+    "anoPublicacao": 1890,
+    "genero": "Terror",
+    "status": "Lendo",
+    "capa": ""
+  }
+]

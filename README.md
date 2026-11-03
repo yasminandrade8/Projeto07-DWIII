@@ -1,4 +1,6 @@
-# 📚 Sistema de Gerenciamento de Livros (CRUD + API REST)
+# 📚 Projeto 07 - Sistema de Gerenciamento de Livros (CRUD + API REST)
+> **Disciplina:** Desenvolvimento Web III
+> **Linguagem:** HTML5, JSON, CSS3 e JavaScript (Node.js) 
 
 Aplicação web desenvolvida para o gerenciamento de um acervo literário pessoal, permitindo organizar livros, acompanhar a situação de leitura e consultar informações em tempo real através de integração com a API externa **Open Library**.
 
@@ -42,3 +44,43 @@ gerenciamento-livros/
 ├── server.js            # Servidor HTTP Node.js e API REST
 ├── package.json         # Configurações do projeto Node.js
 └── README.md            # Documentação do projeto
+```
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+Certifique-se de ter o **Node.js** instalado em sua máquina.
+
+1. Clone o repositório ou abra a pasta do projeto no terminal.
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd gerenciamento-livros
+   ```
+3. Inicie o servidor Node.js:
+   ```bash
+   node server.js
+   ```
+4. Abra o seu navegador e acesse:
+   ```text
+   http://localhost:3000
+   ```
+
+---
+
+## 🔌 Documentação da API REST
+
+A API disponibiliza os seguintes endpoints para integração:
+
+| Método | Endpoint | Descrição |
+| :--- | :--- | :--- |
+| `GET` | `/api/livros` | Retorna a lista de todos os livros cadastrados |
+| `GET` | `/api/livros/:id` | Consulta os detalhes de um livro específico pelo ID |
+| `POST` | `/api/livros` | Cadastra um novo livro no acervo |
+| `PUT` | `/api/livros/:id` | Atualiza os dados de um livro existente |
+| `DELETE` | `/api/livros/:id` | Remove um livro do acervo |
+
+---
+
+## 👩‍💻 Autora
+Feito com 💜 por Yasmin Andrade
